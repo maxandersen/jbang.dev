@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>jbang</title>
+ <link href="https://jbang.dev/" rel="self"/>
+ <link href="https://jbang.dev"/>
+ <updated>2020-10-09T07:30:26+00:00</updated>
+ <id>https://jbang.dev</id>
+ <author>
+   <name>Max Rydahl Andersen</name>
+   <email>jbang@xam.dk</email>
+ </author>
+
+ 
+ <entry>
+   <title>Beyond Hello World!</title>
+   <link href="https://jbang.dev/posts/learn/beyondhello"/>
+   <updated>2020-05-28T00:00:00+00:00</updated>
+   <id>https://jbang.dev/posts/learn/beyondhello</id>
+   <content type="html">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;A simple script you can run with &lt;code&gt;jbang&lt;/code&gt; is &quot;Hello World&quot; using jshell (&lt;code&gt;.jsh&lt;/code&gt;).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;    System.out.println(&quot;Hello &quot; + ((args.length&amp;gt;0)?args[0]:&quot;jbang&quot;));&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;You can run the above by putting it in a file named: &lt;code&gt;hello.jsh&lt;/code&gt; and run &lt;code&gt;jbang hello.jsh&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;To expand on this we will make a Java file (&lt;code&gt;.java&lt;/code&gt;) which uses an external dependency to make the text a bit more fancy.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;In this case we&amp;#8217;ll use a library called &lt;code&gt;jfiglet&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We use &lt;code&gt;//DEPS com.github.lalyos:jfiglet:0.0.8&lt;/code&gt; to declare this script should run using the dependency with group id: &lt;code&gt;com.github.lalyos&lt;/code&gt;, artifact id: &lt;code&gt;jfiglet&lt;/code&gt; and with the version &lt;code&gt;0.0.8&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;These are called &quot;artifacts coordinates&quot; or &quot;maven coordinates&quot; as the system originates from the Maven build system; but is today used in almost all Java projects. You can use sites like &lt;a href=&quot;https://mvnrepository.com&quot; class=&quot;bare&quot;&gt;https://mvnrepository.com&lt;/a&gt; to locate the coordinates of projects, and otherwise find them on the website or source repository of the project them self.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Below is a repl.it instance preconfigured with &lt;code&gt;jbang&lt;/code&gt; ready to run &lt;code&gt;hello.java&lt;/code&gt; using the &lt;code&gt;figlet&lt;/code&gt; dependency.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Try and press the Run button to see how it works and then try edit the code to see how it pick up the changes between each run.&lt;/p&gt;
+&lt;/div&gt;
+&lt;iframe height=&quot;400px&quot; width=&quot;100%&quot; src=&quot;https://repl.it/@maxandersen/jbang-replit-demo?lite=true#hello.java&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; sandbox=&quot;allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals&quot;&gt;&lt;/iframe&gt;</content>
+ </entry>
+ 
+ 
+</feed>
