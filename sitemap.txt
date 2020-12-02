@@ -12,4 +12,5 @@ https://jbang.dev/sitemap.txt
 https://jbang.dev/twitter
 https://jbang.dev/feed.xml
 
+https://jbang.dev/posts/learn/jbang-avatar
 https://jbang.dev/posts/learn/beyondhello
