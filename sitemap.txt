@@ -1,5 +1,6 @@
 
 https://jbang.dev/404
+https://jbang.dev/appstore
 https://jbang.dev/archive
 https://jbang.dev/atom.xml
 https://jbang.dev/contribute
