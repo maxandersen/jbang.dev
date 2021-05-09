@@ -24,6 +24,8 @@ lantoniotrento@gmail.com
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
       <link href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css" rel="stylesheet">
       <link href="https://unpkg.com/bootstrap-table@1.18.3/dist/extensions/group-by-v2/bootstrap-table-group-by.css" rel="stylesheet">
+      <!-- https://primer.style/css/components/tooltips -->
+      <link href="https://unpkg.com/@primer/css@^16.0.0/dist/primer.css" rel="stylesheet" />
     <meta name="msapplication-TileColor" content="#00aba9">
     <meta name="theme-color" content="#ffffff">
 
@@ -245,6 +247,7 @@ files for Bootstrap -->
             src="https://code.jquery.com/jquery-3.6.0.min.js"
             crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script>
         <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
         <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/extensions/group-by-v2/bootstrap-table-group-by.min.js"></script>
     <script>
@@ -261,8 +264,10 @@ function groupByFormatter(item,index,rows) {
         + " " + starFormatter(item, row, index);
 }
 function aliasFormatter(value, row, index) {
-  var output = "<code>jbang " + row.command + "</code>";
-  
+  var output;
+
+  output = "<button class='tooltipped tooltipped-sw copyButton' aria-label='Copy jbang command to clipboard'  data-clipboard-text='jbang " + row.command +"'><i class='fa fa-clipboard'></i></button>";
+  output = output + " <code>" + row.command + "</code>";
   if(row.description) {
      output = output  + "<div style='white-space: pre-wrap'>" + row.description + "</div>";
   }
@@ -301,6 +306,9 @@ function starFormatter(value, row, index) {
         </thead>
     </table>
 
+        <script>
+            var clipboard = new ClipboardJS('.copyButton');
+        </script>
 </div>
 </div>
 
