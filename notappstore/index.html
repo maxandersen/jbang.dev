@@ -10,10 +10,10 @@ lantoniotrento@gmail.com
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contribute</title>
-    <meta name="description" content="Download and install jbang">
+    <title>AppStore</title>
+    <meta name="description" content="AppStore">
     <meta name="author" content="Max Rydahl Andersen">    
-    <meta name="keywords" content="contribute">
+    <meta name="keywords" content="appstore">
     <link rel="canonical" href="https://jbang.dev"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
@@ -29,23 +29,23 @@ lantoniotrento@gmail.com
     <!--Google Font link-->
         <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
  <!--Helium css-->
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/jasny-bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="assets/css/appstore.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.css">
-        <link rel="stylesheet" href="assets/css/owl.theme.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        <link rel="stylesheet" href="assets/css/scrolling-nav.css">	  
+        <link rel="stylesheet" href="../assets/css/animate.css">
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../assets/css/jasny-bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/main.css">
+        <link rel="stylesheet" href="../assets/css/appstore.css">
+        <link rel="stylesheet" href="../assets/css/owl.carousel.css">
+        <link rel="stylesheet" href="../assets/css/owl.theme.css">
+        <link rel="stylesheet" href="../assets/css/responsive.css">
+        <link rel="stylesheet" href="../assets/css/scrolling-nav.css">	  
 
 	<!-- CSS loaded by the children page -->
         
 
-    <meta property="og:title" content="Contribute">
-    <meta property="og:description" content="Download and install jbang">
-    <meta property="og:image" content="assets/img/big">
+    <meta property="og:title" content="AppStore">
+    <meta property="og:description" content="AppStore">
+    <meta property="og:image" content="../assets/img/big/images/splash.png">
     <meta property="og:url" content="">
     <meta name="twitter:card" content="summary_large_image">
 
@@ -112,7 +112,7 @@ lantoniotrento@gmail.com
             <!-- navbar-default -->
             <nav class="navbar navbar-toggleable-sm navbar-light bg-default">
               <div class="container">
-                <a class="navbar-brand" href="."><img src="assets/images/logo.svg" alt=""></a>
+                <a class="navbar-brand" href=".."><img src="../assets/images/logo.svg" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-expanded="false" aria-label="Toggle navigation">
                   <i class="fa fa-bars"></i>
                 </button>
@@ -141,7 +141,7 @@ lantoniotrento@gmail.com
     
       
       	
-      	<li class="nav-item active"><a class="nav-link" href="/contribute">Contribute</a></li>
+      	<li class="nav-item"><a class="nav-link" href="/contribute">Contribute</a></li>
       	
       
     
@@ -212,22 +212,82 @@ lantoniotrento@gmail.com
 
 
 
-  <!-- Content Start -->
-  <div id="grid-continer" style="
+<div id="grid-container" style="
     margin: 45px 0;">
 
     <div class="container">
-      <div class="row">
-        <div class="full-width">
-        <h1>Contribute to JBang</h1>
-        <p>JBang is opensource and developed on GitHub at <a href="https://github.com/jbangdev/jbang">jbang.dev/jbang</a></p>
-      
-        <p>Feel free to join <a href="https://github.com/jbangdev/jbang/blob/master/CONTRIBUTORS.md">the contributors</a> by opening issues, pull-requests or just drop by with a comment or idea.</p>
-        <p>See <a href="https://github.com/jbangdev/jbang/blob/master/CONTRIBUTING.adoc">Contribution</a> guide for details on how to build and develop on jbang.</p>
+
+        <h2>JBang AppStore (Experimental)</h2>
+        <div>
+            JBang supports creating and sharing <a href="https://github.com/jbangdev/jbang#catalogs">catalogs</a>. When shared on github, gitlab, or bitbucket, <a href="https://github.com/jbangdev/jbang#implicit-alias-catalogs">implicit aliasing</a> allows to run scripts from remote repositories.
+            <br/><br/>
+            Executing <code>jbang hello@acme</code> will run <code>hello</code> alias found in <code>acme/jbang-catalog/jbang-catalog.json</code> of the default branch searched on github, gitlab and bitbucket in that order.
+            <br/><br/>
+            This page currently lists jbang aliases found by searching github for `jbang-catalog.json`. If you for some reason do not want your alias listed please open an <a href="https://github.com/jbangdev/jbang/issues">issue</a> stating you would like to have your aliases excluded.
+            <br/><br/>
+            To execute any alias, run <code>jbang [alias]</code>. Example - <code>jbang quarkus-starter@38leinaD</code>.
+            <br/><br/>
+
+            <b>NOTE:</b> Always verify a script code before executing it.
         </div>
-      </div>
-  </div>  
-  <!-- Content End -->
+
+    <!-- Include jQuery and other required
+files for Bootstrap -->
+    <script
+            src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js">
+    </script>
+    <script>
+function linkFormatter(value, row, index) {
+  return "<a href='"+row.link+"'>"+ "<img style='width: 5vw;' src='"+row.icon_url+"'/>" 
+         + "<br/>"
+         + row.repoOwner+"/"+row.repoName+"</a>";
+}
+
+function aliasFormatter(value, row, index) {
+  var output = "<code>jbang " + row.command + "</code>";
+  
+  if(row.description) {
+     output = output  + "<br/><br>" + row.description;
+  }
+
+  return output;
+}
+function starFormatter(value, row, index) {
+    if(row.stars==0) return "-";
+    return row.stars;
+}
+
+</script>
+    <table
+            id="appstore-table"
+            data-toggle="table"
+            data-flat="true"
+            class="table-appstore"
+            data-search="true"
+            data-search-align="left"
+            data-total-field="itemCount"
+            data-data-field="items"
+            data-url="/assets/data/jbang-appstore.json">
+        <thead>
+        <tr>
+            <th data-field="link" data-sortable="true" data-formatter="linkFormatter">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </th>
+            <th class="appstore-alias" data-field="command" data-sortable="true" data-formatter="aliasFormatter">Alias</th>
+         <!--   <th data-field="description" data-sortable="true">Description</th> -->
+            <th data-field="stars" data-sortable="true" data-formatter="starFormatter">Stars</th>
+        </tr>
+        </thead>
+    </table>
+
+
+</div>
+</div>
+
 
 
 
@@ -235,7 +295,7 @@ lantoniotrento@gmail.com
             <!-- Footer -->
       <footer class="default-footer text-center">
         <div class="container">
-          <img class="mb-40 footer-logo" src="assets/images/logo.svg" alt="">
+          <img class="mb-40 footer-logo" src="../assets/images/logo.svg" alt="">
           <span class="copy-right dis-blk">jbang - Unleash the power of Java with <i class="fa fa-heart cyan-color"></i> by <a href="https://xam.dk">Max Rydahl Andersen</a> and <a href="https://github.com/jbangdev/jbang/blob/master/CONTRIBUTORS.md">jbang contributors</a></span>
           <span class="social">
                   
@@ -257,19 +317,19 @@ lantoniotrento@gmail.com
 
         <!-- JS includes -->
 
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.nav.js"></script>
-	<script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/form-validator.min.js"></script>	  
-        <script src="assets/js/contact-form-script.js"></script>
-        <script src="assets/js/jasny-bootstrap.min.js"></script>
-        <script src="assets/js/jquery.mixitup.js"></script>	  
-        <script src="assets/js/jquery.countTo.js"></script>
-        <script src="assets/js/jquery.easing.min.js"></script>
-        <script src="assets/js/main.js"></script>	
-        <script src="assets/js/scrolling-nav.js"></script>
-        <script src="assets/js/tether.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/jquery.nav.js"></script>
+	<script src="../assets/js/owl.carousel.min.js"></script>
+        <script src="../assets/js/form-validator.min.js"></script>	  
+        <script src="../assets/js/contact-form-script.js"></script>
+        <script src="../assets/js/jasny-bootstrap.min.js"></script>
+        <script src="../assets/js/jquery.mixitup.js"></script>	  
+        <script src="../assets/js/jquery.countTo.js"></script>
+        <script src="../assets/js/jquery.easing.min.js"></script>
+        <script src="../assets/js/main.js"></script>	
+        <script src="../assets/js/scrolling-nav.js"></script>
+        <script src="../assets/js/tether.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
 
 	<!-- ********************* Grads SCRIPTING ******************************-->
 	<!--Custom script loaded by children page-->

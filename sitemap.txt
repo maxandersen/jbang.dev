@@ -8,6 +8,7 @@ https://jbang.dev/documentation
 https://jbang.dev/download
 https://jbang.dev/
 https://jbang.dev/learn
+https://jbang.dev/notappstore/
 https://jbang.dev/rss.xml
 https://jbang.dev/sitemap.txt
 https://jbang.dev/twitter
