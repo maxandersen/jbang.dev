@@ -194,6 +194,10 @@ lantoniotrento@gmail.com
     
   
     
+      
+    
+  
+    
   
 
 
@@ -211,8 +215,6 @@ lantoniotrento@gmail.com
             </nav>
   
       
-
-
 
 
 <div id="grid-container" style="
@@ -266,7 +268,7 @@ function groupByFormatter(item,index,rows) {
 function aliasFormatter(value, row, index) {
   var output;
 
-  output = "<button class='tooltipped tooltipped-se copyButton' aria-label='Copy jbang command to clipboard'  data-clipboard-text='jbang " + row.command +"'><i class='fa fa-clipboard'></i></button>";
+  output = "<button class='tooltipped tooltipped-se copyButton' aria-label='Copy jbang command to clipboard'  data-clipboard-text='" + row.fullcommand +"'><i class='fa fa-clipboard'></i></button>";
   output = output + " <code>" + row.command + "</code>";
   if(row.description) {
      output = output  + "<div style='white-space: pre-wrap'>" + row.description + "</div>";
@@ -289,8 +291,8 @@ function starFormatter(value, row, index) {
             data-search="true"
             data-search-align="left"
             data-search-highlight="true"
-            data-total-field="itemCount"
-            data-data-field="items"
+            data-total-field="aliasCount"
+            data-data-field="aliases"
             data-group-by="true"
             data-group-by-field="link"
             data-group-by-formatter="groupByFormatter"
@@ -311,9 +313,6 @@ function starFormatter(value, row, index) {
         </script>
 </div>
 </div>
-
-
-
 
 	  <br />
             <!-- Footer -->
