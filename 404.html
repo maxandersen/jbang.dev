@@ -1,307 +1,373 @@
-
-
-<!DOCTYPE html>
+<!doctype html>
 <!--
-https://www.linkedin.com/in/antoniotrento/
-https://twitter.com/lantoniotrento
-lantoniotrento@gmail.com
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Error the page doesn't exist</title>
-    <meta name="description" content="You're lost in the space of Fullit make your landing page a fullpage sliding tool usefull for web marketing. 404 error">
-    <meta name="author" content="Max Rydahl Andersen">    
-    <meta name="keywords" content="gradient, html, css, landing page, jekyll, ruby, web marketing, advertising">
-    <link rel="canonical" href="https://jbang.dev"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- begin _includes/seo.html --><title>This page does not exist - JBang</title>
+<meta name="description" content="jbang is a tool that makes it easy to get started with java and enable experimentation and exploration without the traditional overhead and ceromony with traditional java tools">
+
+
+  <meta name="author" content="JBang">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="JBang">
+<meta property="og:title" content="This page does not exist">
+<meta property="og:url" content="https://jbang.dev/404.html">
+
+
+  <meta property="og:description" content="jbang is a tool that makes it easy to get started with java and enable experimentation and exploration without the traditional overhead and ceromony with traditional java tools">
+
+
+
+
+
+  <meta name="twitter:site" content="@jbangdev">
+  <meta name="twitter:title" content="This page does not exist">
+  <meta name="twitter:description" content="jbang is a tool that makes it easy to get started with java and enable experimentation and exploration without the traditional overhead and ceromony with traditional java tools">
+  <meta name="twitter:url" content="https://jbang.dev/404.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://jbang.dev/404.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://jbang.dev/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="JBang Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+
+
+<!-- vuetify -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vuetify@2.5.0/dist/vuetify.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script>
+<script src="https://unpkg.com/vue@2"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.5.0/dist/vuetify.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<!-- hilight -->
+<!-- using dark as it looks okey but most importantly does not look like crap with vuetify theme inside apps -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/dark.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+
+<script>hljs.highlightAll();</script>
+
+<script>
+Vue.use(hljs.vuePlugin);
+//https://www.metachris.com/2017/02/vuejs-syntax-highlighting-with-highlightjs/
+Vue.directive('highlightjs', {
+  deep: true,
+  bind: function(el, binding) {
+    // on first bind, highlight all targets
+    let targets = el.querySelectorAll('code')
+    targets.forEach((target) => {
+      // if a value is directly assigned to the directive, use this
+      // instead of the element content.
+      if (binding.value) {
+        target.textContent = binding.value
+      }
+      hljs.highlightBlock(target)
+    })
+  },
+  componentUpdated: function(el, binding) {
+    // after an update, re-fill the content and then highlight
+    let targets = el.querySelectorAll('code')
+    targets.forEach((target) => {
+      if (binding.value) {
+        target.textContent = binding.value
+        hljs.highlightBlock(target)
+      }
+    })
+  }
+})
+</script>
+
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
         
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-      <link href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css" rel="stylesheet">
-      <link href="https://unpkg.com/bootstrap-table@1.18.3/dist/extensions/group-by-v2/bootstrap-table-group-by.css" rel="stylesheet">
-      <!-- https://primer.style/css/components/tooltips -->
-      <link href="https://unpkg.com/@primer/css@^16.0.0/dist/primer.css" rel="stylesheet" />
-    <meta name="msapplication-TileColor" content="#00aba9">
-    <meta name="theme-color" content="#ffffff">
-
-    <!--Google Font link-->
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
- <!--Helium css-->
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/jasny-bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="assets/css/appstore.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.css">
-        <link rel="stylesheet" href="assets/css/owl.theme.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        <link rel="stylesheet" href="assets/css/scrolling-nav.css">	  
-
-	<!-- CSS loaded by the children page -->
-        <link rel="stylesheet" type="text/css" href="assets/css/custom/cover.css" />
-
-    <meta property="og:title" content="Error the page doesn't exist">
-    <meta property="og:description" content="You're lost in the space of Fullit make your landing page a fullpage sliding tool usefull for web marketing. 404 error">
-    <meta property="og:image" content="assets/img/big/1.jpg">
-    <meta property="og:url" content="">
-    <meta name="twitter:card" content="summary_large_image">
-
-        <!-- hilight -->
-        <link rel="stylesheet"
-        href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/styles/rainbow.min.css"  />
-
-  <script>hljs.initHighlightingOnLoad();</script>
-	<!--[if IE]>
-		<script type="text/javascript">
-			 var console = { log: function() {} };
-		</script>
-	<![endif]-->
-    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-    <!-- Google ADS mobile block-->
-    
-    <script type="text/javascript" async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script type="text/javascript">
-     (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-9204963049240271",
-        enable_page_level_ads: true
-        });
-    </script>
-    
-  
-    <!-- Google Analytics -->
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-156530423-2', 'auto');
-	ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash});
-	ga('set', 'anonymizeIp', false);
-    </script>
-    <!-- End Google Analytics -->
-    </head>
-  <body>
-  <div class="wrapper">	  	  
-      <!--Home page style--> 
-                  <!-- 
-              <div class="top-menu">
-              <p>
-                <span class="left">
-                  <a href="#"><i class="fa fa-map-marker"></i>New South Wales, Sydney</a>
-                  <a href="#"><i class="fa fa-mobile-phone"></i>+9 34476 3244</a>
-                  <a href="#"><i class="fa fa-envelope"></i>email@example.com</a>
-              	</span>
-                <span class="right hidden-sm-down">                          
-                  
-                  <a href="https://twitter.com/jbangdev"><i class="fa fa-twitter"></i></a>
-                  
-                                              
-                  <a href="https://github.com/jbangdev"><i class="fa fa-github"></i></a>
-                </span>
-              </p>
-            </div>
-            -->
-
-            <!-- navbar-default -->
-            <nav class="navbar navbar-toggleable-sm navbar-light bg-default">
-              <div class="container">
-                <a class="navbar-brand" href="."><img src="assets/images/logo.svg" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-expanded="false" aria-label="Toggle navigation">
-                  <i class="fa fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar1">
-                  <ul class="navbar-nav">
-                    
-                    
-                    
-
-
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li class="nav-item"><a class="nav-link" href="/appstore/">AppStore</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li class="nav-item"><a class="nav-link" href="/contribute">Contribute</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li class="nav-item"><a class="nav-link" href="/documentation">Documentation</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li class="nav-item"><a class="nav-link" href="/download">Download</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li class="nav-item"><a class="nav-link" href="/learn">Learn</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-  
-
-
- 
-                   </ul>
-                </div>
-              </div>
-              <span class="right hidden-sm-down">                          
-                
-                <a href="https://twitter.com/jbangdev"><i class="fa fa-twitter"></i></a>
-                
-                                            
-                <a href="https://github.com/jbangdev"><i class="fa fa-github"></i></a>
-              </span>
-            </nav>
-  
-      
-
-
-
-
-<div class="site-wrapper gradient">
-
-
-      <div class="site-wrapper-inner">
-
-
-        <div class="cover-container">
-
-
-
-          <div class="inner cover">
-			<div class="row vertical-align">
-			  <div class="col-md-6">
-	            <h1 class="cover-heading jumbotitle">This page doesn't exist!</h1>
-	            <p class="lead jumbotext">You're in the right place: <b>Grads</b>! But this page doesn't exist, maybe you're lost (404 error). Try to go back to home by the button below.</p>
-	            <p class="lead jumbotext">
-	              <a href="" class="btn btn-lg btn-default">Home buddy</a>
-	            </p>
-			  </div>
-			  <div class="col-md-6" style="align-content: center;">
-			  	<img src="assets/img/404.gif" style="margin: auto;" class="img-responsive" alt="Error 404">
-			  </div>
-			</div>          	
-
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p>This template is made by <a href="https://twitter.com/lantoniotrento">Antonio Trento</a>.</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
+          <a class="site-logo" href="/"><img src="/assets/images/logo.png" alt=" "></a>
+        
+        <a class="site-title" href="/">
+           
+          <span class="site-subtitle">Unleash the power of Java</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/appstore/">AppStore</a>
+            </li><li class="masthead__menu-item">
+              <a href="/try/">Try</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ide/">IDE</a>
+            </li><li class="masthead__menu-item">
+              <a href="/download/">Download</a>
+            </li><li class="masthead__menu-item">
+              <a href="/documentation">Documentation</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/jbangdev"><i class='fab fa-fw fa-github'></i></a>
+            </li></ul>
+        
+        <input id="search-input" type="text" placeholder="Search...">
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
 </div>
 
+    <div class="initial-content">
+      
 
-	  <br />
-            <!-- Footer -->
-      <footer class="default-footer text-center">
-        <div class="container">
-          <img class="mb-40 footer-logo" src="assets/images/logo.svg" alt="">
-          <span class="copy-right dis-blk">jbang - Unleash the power of Java with <i class="fa fa-heart cyan-color"></i> by <a href="https://xam.dk">Max Rydahl Andersen</a> and <a href="https://github.com/jbangdev/jbang/blob/master/CONTRIBUTORS.md">jbang contributors</a></span>
-          <span class="social">
-                  
-                  <a href="https://twitter.com/jbangdev"><i class="fa fa-2x fa-twitter"></i></a>
-                  
-                                              
-                  <a href="https://www.github.com/jbangdev/"><i class="fa fa-2x fa-github"></i></a>                            
-              	
-          </span>
-        </div>
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="This page does not exist">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">This page does not exist
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>You’re in the right place: <b>Grads</b>! But this page doesn’t exist, maybe you’re lost (404 error).</p>
+
+<p>Try to go back to home by following this <a href="/">link</a>.</p>
+
+<p><img src="/assets/images/404.gif" alt="404" /></p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
       </footer>
 
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><div class="search-searchbar"></div>
+  <div class="search-hits"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+    <ul class="social-icons">
+      
+        <li><strong>Follow:</strong></li>
+      
+  
+      
+        
+          
+            <li><a href="https://twitter.com/jbangdev" rel="me"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          
+        
+          
+            <li><a href="https://fosstodon.org/@jbangdev" rel="me"><i class="fab fa-fw fa-mastodon" aria-hidden="true"></i> Mastodon</a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/jbangdev" rel="me"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+      
+  
+      
+        <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+      
+    </ul>
   </div>
   
+  <div class="page__footer-copyright">&copy; 2024 JBang. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
   
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<!-- Including InstantSearch.js library and styling -->
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
+
+<script>
+var search = docsearch({
+   appId: '4EJ1Y6VISV',
+  
+  apiKey:'7ab0733177a5304fe689e52ed96d5cb8',
+  indexName: 'jbangdev',
+  inputSelector: '#search-input',
+  algoliaOptions: { hitsPerPage: 10 }
+}).autocomplete
+search.on('autocomplete:closed', function () { search.autocomplete.setVal() })
+</script>
+<script>
+  window.addEventListener('load', function focusSearchInput () {
+    window.removeEventListener('load', focusSearchInput)
+    document.querySelector('#search-input').focus()
+  })
+  </script>
 
 
 
 
-        <!-- JS includes -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TNC3Y6H2XY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.nav.js"></script>
-	<script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/form-validator.min.js"></script>	  
-        <script src="assets/js/contact-form-script.js"></script>
-        <script src="assets/js/jasny-bootstrap.min.js"></script>
-        <script src="assets/js/jquery.mixitup.js"></script>	  
-        <script src="assets/js/jquery.countTo.js"></script>
-        <script src="assets/js/jquery.easing.min.js"></script>
-        <script src="assets/js/main.js"></script>	
-        <script src="assets/js/scrolling-nav.js"></script>
-        <script src="assets/js/tether.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-
-	<!-- ********************* Grads SCRIPTING ******************************-->
-	<!--Custom script loaded by children page-->
-	
+  gtag('config', 'G-TNC3Y6H2XY', { 'anonymize_ip': false});
+</script>
 
 
-	  
+
+
+
+
+
+
+
   </body>
 </html>
-
