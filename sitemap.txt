@@ -256,7 +256,6 @@ Vue.directive('highlightjs', {
 /sitemap.xml
 /assets/css/main.css.map
 
-/learn/the-jbang-value/
 /learn/jbang-and-commonhaus/
 /learn/jbanghub/
 /learn/python-with-jbang/
