@@ -46,4 +46,10 @@ var store = [{
         "tags": ["jbang"],
         "url": "/learn/jbang-and-commonhaus/",
         "teaser": "https://raw.githubusercontent.com/commonhaus/artwork/main/foundation/brand/svg/CF_icon_default.svg"
+      },{
+        "title": "Why do I need this_",
+        "excerpt":"\"Java already supports running a java file directly, why is this needed?\" \"Aren&#8217;t we like 1-3 releases away from already having this functionallity in Java?\" Its almost certain that everytime a story or tweet about JBang pops up on social media questions like the above gets asked. Java&#8217;s default toolchain...","categories": ["learn"],
+        "tags": ["jbang"],
+        "url": "/learn/the-jbang-value/",
+        "teaser": "/assets/images/java_script.png"
       }]
