@@ -1,5 +1,5 @@
 {
-  "aliasCount": 498,
+  "aliasCount": 499,
   "aliases": [
     {
       "stars": 13951,
@@ -10,10 +10,10 @@
       "scriptRef": "RevapiUpdate.java",
       "command": "revapi-update@quarkusio/quarkus~.jbang",
       "fullcommand": "jbang revapi-update@quarkusio/quarkus~.jbang",
-      "link": "https://github.com/quarkusio/quarkus/blob/5290c339a628fd05e37c38da12e0687107a500e5/.jbang/jbang-catalog.json"
+      "link": "https://github.com/quarkusio/quarkus/blob/1ffcee26573758a9496c9a834bb91b5d13564290/.jbang/jbang-catalog.json"
     },
     {
-      "stars": 10439,
+      "stars": 10438,
       "icon_url": "https://avatars.githubusercontent.com/u/10639145?v\u003d4",
       "repoOwner": "apple",
       "repoName": "pkl",
@@ -24,7 +24,7 @@
       "link": "https://github.com/apple/pkl/blob/d9c65d484a95316736712f0e0db91c45b7fe8a78/jbang-catalog.json"
     },
     {
-      "stars": 10439,
+      "stars": 10438,
       "icon_url": "https://avatars.githubusercontent.com/u/10639145?v\u003d4",
       "repoOwner": "apple",
       "repoName": "pkl",
@@ -35,7 +35,7 @@
       "link": "https://github.com/apple/pkl/blob/d9c65d484a95316736712f0e0db91c45b7fe8a78/jbang-catalog.json"
     },
     {
-      "stars": 10439,
+      "stars": 10438,
       "icon_url": "https://avatars.githubusercontent.com/u/10639145?v\u003d4",
       "repoOwner": "apple",
       "repoName": "pkl",
@@ -46,7 +46,7 @@
       "link": "https://github.com/apple/pkl/blob/d9c65d484a95316736712f0e0db91c45b7fe8a78/jbang-catalog.json"
     },
     {
-      "stars": 8382,
+      "stars": 8384,
       "icon_url": "https://avatars.githubusercontent.com/u/91312095?v\u003d4",
       "repoOwner": "karatelabs",
       "repoName": "karate",
@@ -68,7 +68,7 @@
       "link": "https://github.com/tabulapdf/tabula-java/blob/5d91f1d733c4895d31854a641c152220f8c5f341/jbang-catalog.json"
     },
     {
-      "stars": 1642,
+      "stars": 1646,
       "icon_url": "https://avatars.githubusercontent.com/u/185941913?v\u003d4",
       "repoOwner": "NanowarOfSteel",
       "repoName": "HelloWorld",
@@ -79,7 +79,7 @@
       "link": "https://github.com/NanowarOfSteel/HelloWorld/blob/b2f080be9440799f694f0259864ff50fe6e07bfc/jbang-catalog.json"
     },
     {
-      "stars": 1417,
+      "stars": 1419,
       "icon_url": "https://avatars.githubusercontent.com/u/2943947?v\u003d4",
       "repoOwner": "hawtio",
       "repoName": "hawtio",
@@ -91,7 +91,7 @@
       "link": "https://github.com/hawtio/hawtio/blob/a28869a6131cb0792ac703384642e4d10a8d564e/jbang-catalog.json"
     },
     {
-      "stars": 1279,
+      "stars": 1281,
       "icon_url": "https://avatars.githubusercontent.com/u/4430336?v\u003d4",
       "repoOwner": "oracle",
       "repoName": "graalpython",
@@ -586,6 +586,17 @@
       "command": "roq@quarkiverse/quarkus-roq",
       "fullcommand": "jbang roq@quarkiverse/quarkus-roq",
       "link": "https://github.com/quarkiverse/quarkus-roq/blob/aa6dceb5fa369a546c87e05f6b8e9fcbe35501e6/jbang-catalog.json"
+    },
+    {
+      "stars": 16,
+      "icon_url": "https://avatars.githubusercontent.com/u/372781?v\u003d4",
+      "repoOwner": "mariofusco",
+      "repoName": "site-summarizer",
+      "alias": "doit",
+      "scriptRef": "summarize.java",
+      "command": "doit@mariofusco/site-summarizer",
+      "fullcommand": "jbang doit@mariofusco/site-summarizer",
+      "link": "https://github.com/mariofusco/site-summarizer/blob/9b253756fc2e6696ec1ad28ad4751be1f8c00aff/jbang-catalog.json"
     },
     {
       "stars": 16,
@@ -1249,17 +1260,6 @@
       "link": "https://github.com/jbangdev/jbang-examples/blob/4ce3d460c8a6817a392c5dde975d76729f7a86e2/jbang-catalog.json"
     },
     {
-      "stars": 15,
-      "icon_url": "https://avatars.githubusercontent.com/u/372781?v\u003d4",
-      "repoOwner": "mariofusco",
-      "repoName": "site-summarizer",
-      "alias": "doit",
-      "scriptRef": "summarize.java",
-      "command": "doit@mariofusco/site-summarizer",
-      "fullcommand": "jbang doit@mariofusco/site-summarizer",
-      "link": "https://github.com/mariofusco/site-summarizer/blob/9b253756fc2e6696ec1ad28ad4751be1f8c00aff/jbang-catalog.json"
-    },
-    {
       "stars": 13,
       "icon_url": "https://avatars.githubusercontent.com/u/2865265?v\u003d4",
       "repoOwner": "tomitribe",
@@ -1283,17 +1283,6 @@
     },
     {
       "stars": 12,
-      "icon_url": "https://avatars.githubusercontent.com/u/54129?v\u003d4",
-      "repoOwner": "maxandersen",
-      "repoName": "wordle-solve",
-      "alias": "main",
-      "scriptRef": "src/main.java",
-      "command": "main@maxandersen/wordle-solve",
-      "fullcommand": "jbang main@maxandersen/wordle-solve",
-      "link": "https://github.com/maxandersen/wordle-solve/blob/42702ffbd1d39e47eebe96ef8be9f4f9c9489200/jbang-catalog.json"
-    },
-    {
-      "stars": 12,
       "icon_url": "https://avatars.githubusercontent.com/u/60074102?v\u003d4",
       "repoOwner": "jbangdev",
       "repoName": "jbang.dev",
@@ -1313,6 +1302,17 @@
       "command": "tree@jbangdev/jbang.dev",
       "fullcommand": "jbang tree@jbangdev/jbang.dev",
       "link": "https://github.com/jbangdev/jbang.dev/blob/d0bcafd5a59c4df0ab98574f09d9c408b0aa342b/jbang-catalog.json"
+    },
+    {
+      "stars": 12,
+      "icon_url": "https://avatars.githubusercontent.com/u/54129?v\u003d4",
+      "repoOwner": "maxandersen",
+      "repoName": "wordle-solve",
+      "alias": "main",
+      "scriptRef": "src/main.java",
+      "command": "main@maxandersen/wordle-solve",
+      "fullcommand": "jbang main@maxandersen/wordle-solve",
+      "link": "https://github.com/maxandersen/wordle-solve/blob/42702ffbd1d39e47eebe96ef8be9f4f9c9489200/jbang-catalog.json"
     },
     {
       "stars": 11,
@@ -2904,7 +2904,7 @@
       "scriptRef": "src/QuarkusStarter.java",
       "command": "quarkus-starter@38leinaD",
       "fullcommand": "jbang quarkus-starter@38leinaD",
-      "link": "https://github.com/38leinaD/jbang-catalog/blob/32111495da4d09c7096084eb1d738a6b29bf9f99/jbang-catalog.json"
+      "link": "https://github.com/38leinaD/jbang-catalog/blob/d67e579c930b6da1d7d9f33d3b84650b2abf75c3/jbang-catalog.json"
     },
     {
       "stars": 1,
@@ -2913,10 +2913,10 @@
       "repoName": "jbang-catalog",
       "alias": "firestarter",
       "description": "\u003cp\u003eDisplay a YouTube video on your RasPi or similar (e.g. to build a \u0027virtual fireplace\u0027). Also, simple web-ui to edit the video URL.\u003c/p\u003e\n",
-      "scriptRef": "src/firestarter",
+      "scriptRef": "src/firestarter.java",
       "command": "firestarter@38leinaD",
       "fullcommand": "jbang firestarter@38leinaD",
-      "link": "https://github.com/38leinaD/jbang-catalog/blob/32111495da4d09c7096084eb1d738a6b29bf9f99/jbang-catalog.json"
+      "link": "https://github.com/38leinaD/jbang-catalog/blob/d67e579c930b6da1d7d9f33d3b84650b2abf75c3/jbang-catalog.json"
     },
     {
       "stars": 1,
@@ -2928,7 +2928,7 @@
       "scriptRef": "src/httpserver.java",
       "command": "httpserver@38leinaD",
       "fullcommand": "jbang httpserver@38leinaD",
-      "link": "https://github.com/38leinaD/jbang-catalog/blob/32111495da4d09c7096084eb1d738a6b29bf9f99/jbang-catalog.json"
+      "link": "https://github.com/38leinaD/jbang-catalog/blob/d67e579c930b6da1d7d9f33d3b84650b2abf75c3/jbang-catalog.json"
     },
     {
       "stars": 1,
@@ -3406,6 +3406,50 @@
     },
     {
       "stars": 1,
+      "icon_url": "https://avatars.githubusercontent.com/u/54129?v\u003d4",
+      "repoOwner": "maxandersen",
+      "repoName": "xam.dk",
+      "alias": "tree",
+      "scriptRef": "tree/main.java",
+      "command": "tree@maxandersen/xam.dk",
+      "fullcommand": "jbang tree@maxandersen/xam.dk",
+      "link": "https://github.com/maxandersen/xam.dk/blob/de714be075b704214a2157445d57bbad45339829/jbang-catalog.json"
+    },
+    {
+      "stars": 1,
+      "icon_url": "https://avatars.githubusercontent.com/u/54129?v\u003d4",
+      "repoOwner": "maxandersen",
+      "repoName": "xam.dk",
+      "alias": "qrcode",
+      "scriptRef": "qrcode/main.java",
+      "command": "qrcode@maxandersen/xam.dk",
+      "fullcommand": "jbang qrcode@maxandersen/xam.dk",
+      "link": "https://github.com/maxandersen/xam.dk/blob/de714be075b704214a2157445d57bbad45339829/jbang-catalog.json"
+    },
+    {
+      "stars": 1,
+      "icon_url": "https://avatars.githubusercontent.com/u/63334958?v\u003d4",
+      "repoOwner": "opt-nc",
+      "repoName": "jbang-catalog",
+      "alias": "hello-optnc",
+      "scriptRef": "https://github.com/opt-nc/jbang-catalog/blob/main/hello-optnc/HelloOptNc.java",
+      "command": "hello-optnc@opt-nc",
+      "fullcommand": "jbang hello-optnc@opt-nc",
+      "link": "https://github.com/opt-nc/jbang-catalog/blob/e5b5a07a9c0af4d3b3cc944b1db9a324cdd10f22/jbang-catalog.json"
+    },
+    {
+      "stars": 1,
+      "icon_url": "https://avatars.githubusercontent.com/u/63334958?v\u003d4",
+      "repoOwner": "opt-nc",
+      "repoName": "jbang-catalog",
+      "alias": "phonenumber-validator",
+      "scriptRef": "https://github.com/opt-nc/jbang-catalog/blob/main/phonenumber-validator/Validator.java",
+      "command": "phonenumber-validator@opt-nc",
+      "fullcommand": "jbang phonenumber-validator@opt-nc",
+      "link": "https://github.com/opt-nc/jbang-catalog/blob/e5b5a07a9c0af4d3b3cc944b1db9a324cdd10f22/jbang-catalog.json"
+    },
+    {
+      "stars": 1,
       "icon_url": "https://avatars.githubusercontent.com/u/179265?v\u003d4",
       "repoOwner": "FroMage",
       "repoName": "jbang-catalog",
@@ -3439,50 +3483,6 @@
       "command": "agent@jacoco",
       "fullcommand": "jbang agent@jacoco",
       "link": "https://github.com/jacoco/jbang-catalog/blob/678e949a1f87fcb1c92f0f781921e1290bc3ebde/jbang-catalog.json"
-    },
-    {
-      "stars": 1,
-      "icon_url": "https://avatars.githubusercontent.com/u/63334958?v\u003d4",
-      "repoOwner": "opt-nc",
-      "repoName": "jbang-catalog",
-      "alias": "hello-optnc",
-      "scriptRef": "https://github.com/opt-nc/jbang-catalog/blob/main/hello-optnc/HelloOptNc.java",
-      "command": "hello-optnc@opt-nc",
-      "fullcommand": "jbang hello-optnc@opt-nc",
-      "link": "https://github.com/opt-nc/jbang-catalog/blob/e5b5a07a9c0af4d3b3cc944b1db9a324cdd10f22/jbang-catalog.json"
-    },
-    {
-      "stars": 1,
-      "icon_url": "https://avatars.githubusercontent.com/u/63334958?v\u003d4",
-      "repoOwner": "opt-nc",
-      "repoName": "jbang-catalog",
-      "alias": "phonenumber-validator",
-      "scriptRef": "https://github.com/opt-nc/jbang-catalog/blob/main/phonenumber-validator/Validator.java",
-      "command": "phonenumber-validator@opt-nc",
-      "fullcommand": "jbang phonenumber-validator@opt-nc",
-      "link": "https://github.com/opt-nc/jbang-catalog/blob/e5b5a07a9c0af4d3b3cc944b1db9a324cdd10f22/jbang-catalog.json"
-    },
-    {
-      "stars": 1,
-      "icon_url": "https://avatars.githubusercontent.com/u/54129?v\u003d4",
-      "repoOwner": "maxandersen",
-      "repoName": "xam.dk",
-      "alias": "tree",
-      "scriptRef": "tree/main.java",
-      "command": "tree@maxandersen/xam.dk",
-      "fullcommand": "jbang tree@maxandersen/xam.dk",
-      "link": "https://github.com/maxandersen/xam.dk/blob/de714be075b704214a2157445d57bbad45339829/jbang-catalog.json"
-    },
-    {
-      "stars": 1,
-      "icon_url": "https://avatars.githubusercontent.com/u/54129?v\u003d4",
-      "repoOwner": "maxandersen",
-      "repoName": "xam.dk",
-      "alias": "qrcode",
-      "scriptRef": "qrcode/main.java",
-      "command": "qrcode@maxandersen/xam.dk",
-      "fullcommand": "jbang qrcode@maxandersen/xam.dk",
-      "link": "https://github.com/maxandersen/xam.dk/blob/de714be075b704214a2157445d57bbad45339829/jbang-catalog.json"
     },
     {
       "stars": 1,
@@ -4423,7 +4423,7 @@
       "scriptRef": "2024/day1-kotlin/2024-day1.kt",
       "command": "2024-1@yostane/adventofcode",
       "fullcommand": "jbang 2024-1@yostane/adventofcode",
-      "link": "https://github.com/yostane/adventofcode/blob/4927655adbf21f606f14c164162b75b6158ba4e4/jbang-catalog.json"
+      "link": "https://github.com/yostane/adventofcode/blob/323a4a7fc58e2c1e34408ca3e5e8486eca178538/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4435,7 +4435,7 @@
       "scriptRef": "2024/day1-kotlin/2024-day2.kt",
       "command": "2024-2@yostane/adventofcode",
       "fullcommand": "jbang 2024-2@yostane/adventofcode",
-      "link": "https://github.com/yostane/adventofcode/blob/4927655adbf21f606f14c164162b75b6158ba4e4/jbang-catalog.json"
+      "link": "https://github.com/yostane/adventofcode/blob/323a4a7fc58e2c1e34408ca3e5e8486eca178538/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4447,7 +4447,7 @@
       "scriptRef": "2024/day1-kotlin/2024-day3.kt",
       "command": "2024-3@yostane/adventofcode",
       "fullcommand": "jbang 2024-3@yostane/adventofcode",
-      "link": "https://github.com/yostane/adventofcode/blob/4927655adbf21f606f14c164162b75b6158ba4e4/jbang-catalog.json"
+      "link": "https://github.com/yostane/adventofcode/blob/323a4a7fc58e2c1e34408ca3e5e8486eca178538/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4459,7 +4459,7 @@
       "scriptRef": "2024/day1-kotlin/2024-day4.kt",
       "command": "2024-4@yostane/adventofcode",
       "fullcommand": "jbang 2024-4@yostane/adventofcode",
-      "link": "https://github.com/yostane/adventofcode/blob/4927655adbf21f606f14c164162b75b6158ba4e4/jbang-catalog.json"
+      "link": "https://github.com/yostane/adventofcode/blob/323a4a7fc58e2c1e34408ca3e5e8486eca178538/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4471,7 +4471,7 @@
       "scriptRef": "find_grep.java",
       "command": "grep@a-services",
       "fullcommand": "jbang grep@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4483,7 +4483,7 @@
       "scriptRef": "csv_from_db.java",
       "command": "csv@a-services",
       "fullcommand": "jbang csv@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4495,7 +4495,7 @@
       "scriptRef": "images2pdf.java",
       "command": "images2pdf@a-services",
       "fullcommand": "jbang images2pdf@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4507,7 +4507,7 @@
       "scriptRef": "strapdownjs.java",
       "command": "strapdownjs@a-services",
       "fullcommand": "jbang strapdownjs@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4519,7 +4519,7 @@
       "scriptRef": "folder_sizes.java",
       "command": "folder_sizes@a-services",
       "fullcommand": "jbang folder_sizes@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4531,7 +4531,7 @@
       "scriptRef": "find_cordova.java",
       "command": "find_cordova@a-services",
       "fullcommand": "jbang find_cordova@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4543,7 +4543,7 @@
       "scriptRef": "paste_log.java",
       "command": "paste_log@a-services",
       "fullcommand": "jbang paste_log@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4555,7 +4555,7 @@
       "scriptRef": "ts_imports.java",
       "command": "ts_imports@a-services",
       "fullcommand": "jbang ts_imports@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4567,7 +4567,7 @@
       "scriptRef": "exc.java",
       "command": "exc@a-services",
       "fullcommand": "jbang exc@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4579,7 +4579,7 @@
       "scriptRef": "yml_table.java",
       "command": "yml_table@a-services",
       "fullcommand": "jbang yml_table@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4591,7 +4591,7 @@
       "scriptRef": "calibre_page.java",
       "command": "calibre_page@a-services",
       "fullcommand": "jbang calibre_page@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4603,7 +4603,7 @@
       "scriptRef": "fix_chapters.java",
       "command": "fix_chapters@a-services",
       "fullcommand": "jbang fix_chapters@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4615,7 +4615,7 @@
       "scriptRef": "svg_icons.java",
       "command": "svg_icons@a-services",
       "fullcommand": "jbang svg_icons@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4627,7 +4627,7 @@
       "scriptRef": "har2postman.java",
       "command": "har2postman@a-services",
       "fullcommand": "jbang har2postman@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4639,7 +4639,7 @@
       "scriptRef": "file_index.java",
       "command": "file_index@a-services",
       "fullcommand": "jbang file_index@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4651,7 +4651,7 @@
       "scriptRef": "p_stats.java",
       "command": "p_stats@a-services",
       "fullcommand": "jbang p_stats@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4663,7 +4663,7 @@
       "scriptRef": "extract_html_headers.java",
       "command": "extract_html_headers@a-services",
       "fullcommand": "jbang extract_html_headers@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4675,7 +4675,7 @@
       "scriptRef": "bookserver.java",
       "command": "bookserver@a-services",
       "fullcommand": "jbang bookserver@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4687,7 +4687,7 @@
       "scriptRef": "udemy_html_toc.java",
       "command": "udemy_html_toc@a-services",
       "fullcommand": "jbang udemy_html_toc@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4699,7 +4699,7 @@
       "scriptRef": "remove_html.java",
       "command": "remove_html@a-services",
       "fullcommand": "jbang remove_html@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4711,7 +4711,7 @@
       "scriptRef": "replace_br.java",
       "command": "replace_br@a-services",
       "fullcommand": "jbang replace_br@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4723,7 +4723,7 @@
       "scriptRef": "cmp_tstamps.java",
       "command": "cmp_tstamps@a-services",
       "fullcommand": "jbang cmp_tstamps@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4735,7 +4735,7 @@
       "scriptRef": "obsidian_folder.java",
       "command": "obsidian_folder@a-services",
       "fullcommand": "jbang obsidian_folder@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4747,7 +4747,7 @@
       "scriptRef": "git_changes.java",
       "command": "git_changes@a-services",
       "fullcommand": "jbang git_changes@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4759,7 +4759,7 @@
       "scriptRef": "tommy.java",
       "command": "tommy@a-services",
       "fullcommand": "jbang tommy@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4771,7 +4771,7 @@
       "scriptRef": "README.java",
       "command": "README@a-services",
       "fullcommand": "jbang README@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4783,7 +4783,7 @@
       "scriptRef": "ai_note.java",
       "command": "ai_note@a-services",
       "fullcommand": "jbang ai_note@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4795,7 +4795,7 @@
       "scriptRef": "maven_deps.java",
       "command": "maven_deps@a-services",
       "fullcommand": "jbang maven_deps@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4807,7 +4807,7 @@
       "scriptRef": "o_ed.java",
       "command": "o_ed@a-services",
       "fullcommand": "jbang o_ed@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -4819,7 +4819,19 @@
       "scriptRef": "tree.java",
       "command": "tree@a-services",
       "fullcommand": "jbang tree@a-services",
-      "link": "https://github.com/a-services/jbang-catalog/blob/a9458f1cd00c674d410bc819e8ddaf75efac4718/jbang-catalog.json"
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
+    },
+    {
+      "stars": 0,
+      "icon_url": "https://avatars.githubusercontent.com/u/26920499?v\u003d4",
+      "repoOwner": "a-services",
+      "repoName": "jbang-catalog",
+      "alias": "insert_files",
+      "description": "\u003cp\u003eReplace file names with the contents of the respective files\u003c/p\u003e\n",
+      "scriptRef": "insert_files.java",
+      "command": "insert_files@a-services",
+      "fullcommand": "jbang insert_files@a-services",
+      "link": "https://github.com/a-services/jbang-catalog/blob/6383d9dd134b534cf3d0f7026034e7cc24eeb12e/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -5199,7 +5211,7 @@
       "scriptRef": "io.karatelabs:karate-core:1.5.0:all",
       "command": "karate@0J27VWx/UNi57cV7lgY",
       "fullcommand": "jbang karate@0J27VWx/UNi57cV7lgY",
-      "link": "https://github.com/0J27VWx/UNi57cV7lgY/blob/3b8c1cffd42c8e8a41db83f7b939d8c41c85abfb/jbang-catalog.json"
+      "link": "https://github.com/0J27VWx/UNi57cV7lgY/blob/e4643eca70ee0141c6c09fc5816c6ba719b2f38b/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -5321,6 +5333,17 @@
     },
     {
       "stars": 0,
+      "icon_url": "https://avatars.githubusercontent.com/u/91312095?v\u003d4",
+      "repoOwner": "karatelabs",
+      "repoName": "jbang-catalog",
+      "alias": "karate",
+      "scriptRef": "io.karatelabs:karate-core:1.5.0:all",
+      "command": "karate@karatelabs",
+      "fullcommand": "jbang karate@karatelabs",
+      "link": "https://github.com/karatelabs/jbang-catalog/blob/17cb2f8cc00c93dcaab418b9b349aebd17b033f6/jbang-catalog.json"
+    },
+    {
+      "stars": 0,
       "icon_url": "https://avatars.githubusercontent.com/u/2319838?v\u003d4",
       "repoOwner": "sormuras",
       "repoName": "jbang",
@@ -5333,14 +5356,14 @@
     },
     {
       "stars": 0,
-      "icon_url": "https://avatars.githubusercontent.com/u/91312095?v\u003d4",
-      "repoOwner": "karatelabs",
-      "repoName": "jbang-catalog",
+      "icon_url": "https://avatars.githubusercontent.com/u/82864904?v\u003d4",
+      "repoOwner": "rohan-flutterint",
+      "repoName": "karate-core",
       "alias": "karate",
-      "scriptRef": "io.karatelabs:karate-core:1.5.0:all",
-      "command": "karate@karatelabs",
-      "fullcommand": "jbang karate@karatelabs",
-      "link": "https://github.com/karatelabs/jbang-catalog/blob/17cb2f8cc00c93dcaab418b9b349aebd17b033f6/jbang-catalog.json"
+      "scriptRef": "com.intuit.karate:karate-core:1.2.0:all",
+      "command": "karate@rohan-flutterint/karate-core",
+      "fullcommand": "jbang karate@rohan-flutterint/karate-core",
+      "link": "https://github.com/rohan-flutterint/karate-core/blob/3b4de72abf93431d8c9fc9301d806c6b931df004/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -5375,17 +5398,6 @@
       "command": "clearpto@maxandersen/jmeet",
       "fullcommand": "jbang clearpto@maxandersen/jmeet",
       "link": "https://github.com/maxandersen/jmeet/blob/6c1bad89dd76bc1c233e26296b87e94395a6cf8f/jbang-catalog.json"
-    },
-    {
-      "stars": 0,
-      "icon_url": "https://avatars.githubusercontent.com/u/82864904?v\u003d4",
-      "repoOwner": "rohan-flutterint",
-      "repoName": "karate-core",
-      "alias": "karate",
-      "scriptRef": "com.intuit.karate:karate-core:1.2.0:all",
-      "command": "karate@rohan-flutterint/karate-core",
-      "fullcommand": "jbang karate@rohan-flutterint/karate-core",
-      "link": "https://github.com/rohan-flutterint/karate-core/blob/3b4de72abf93431d8c9fc9301d806c6b931df004/jbang-catalog.json"
     },
     {
       "stars": 0,
@@ -5847,7 +5859,7 @@
       "link": "https://github.com/jbangdev/jbang/blob/99d22ac59d8a60fd20a0645a6ab53bb48477793a/src/main/resources/jbang-catalog.json"
     },
     {
-      "stars": 1279,
+      "stars": 1281,
       "icon_url": "https://avatars.githubusercontent.com/u/4430336?v\u003d4",
       "repoOwner": "oracle",
       "repoName": "graalpython",
@@ -5858,7 +5870,7 @@
       "link": "https://github.com/oracle/graalpython/blob/0c2eca6c43791cf4ad4ada854287cf55d6ec5618/jbang-catalog.json"
     },
     {
-      "stars": 1279,
+      "stars": 1281,
       "icon_url": "https://avatars.githubusercontent.com/u/4430336?v\u003d4",
       "repoOwner": "oracle",
       "repoName": "graalpython",
@@ -6239,7 +6251,7 @@
       "description": "\u003cp\u003eKotlin Template\u003c/p\u003e\n",
       "command": "kt@yostane/adventofcode",
       "fullcommand": "jbang init -t kt@yostane/adventofcode",
-      "link": "https://github.com/yostane/adventofcode/blob/4927655adbf21f606f14c164162b75b6158ba4e4/jbang-catalog.json"
+      "link": "https://github.com/yostane/adventofcode/blob/323a4a7fc58e2c1e34408ca3e5e8486eca178538/jbang-catalog.json"
     },
     {
       "stars": 0,
