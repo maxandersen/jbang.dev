@@ -1,0 +1,899 @@
+[20:56:00.725] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: main <worktree> | start path: docs)
+[20:59:24.200] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: main <worktree> | start path: docs)
+[21:00:10.546] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+[21:00:10.549] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+[21:00:10.551] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+[21:00:10.554] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[21:00:10.555] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[21:00:10.556] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[21:00:10.558] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:16
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[21:00:10.559] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:21
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[21:00:10.561] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: main <worktree> | start path: docs)
+[21:08:24.540] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+[21:08:24.542] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+[21:08:24.544] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+[21:08:24.547] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[21:08:24.548] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[21:08:24.549] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[21:08:24.551] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:16
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[21:08:24.551] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:21
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[21:08:24.553] ERROR (asciidoctor): target of include not found: pages/README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc:2
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: main <worktree> | start path: docs)
+[21:08:52.731] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+[21:08:52.734] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+[21:08:52.735] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+[21:08:52.739] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[21:08:52.740] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[21:08:52.740] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[21:08:52.742] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:16
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[21:08:52.743] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:21
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: main <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[21:08:52.744] ERROR (asciidoctor): target of include not found: pages/README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc:2
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: main <worktree> | start path: docs)
+[21:10:24.641] FATAL (antora): Cannot find module ''@antora/collector-extension'' at path /Users/manderse/code/jbangdev/jbang.dev/docs-site/register
+Require stack:
+- /Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/user-require-helper/lib/index.js
+- /Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/cli/lib/cli.js
+- /Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/cli/lib/index.js
+- /Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/cli/bin/antora
+    Cause: Error
+        at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+        at resolve (node:internal/modules/helpers:151:19)
+        at userRequire.resolve (/Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/user-require-helper/lib/index.js:79:12)
+        at userRequire (/Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/user-require-helper/lib/index.js:40:18)
+        at /Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/site-generator/lib/generator-context.js:148:28
+        at Array.forEach (<anonymous>)
+        at GeneratorContext._registerExtensions (/Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/site-generator/lib/generator-context.js:143:18)
+        at GeneratorContext._init (/Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/site-generator/lib/generator-context.js:132:10)
+        at GeneratorContext.start (/Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/site-generator/lib/generator-context.js:115:34)
+        at generateSite (/Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/site-generator/lib/generate-site.js:10:51)
+[23:24:11.694] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:24:11.696] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:24:11.698] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:24:11.701] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:24:11.702] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:24:11.703] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:24:11.705] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:16
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:24:11.705] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:21
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:24:11.707] ERROR (asciidoctor): target of include not found: pages/README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc:2
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: antoraexp <worktree> | start path: docs)
+[23:25:39.093] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:25:39.095] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:25:39.097] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:25:39.100] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:25:39.102] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:25:39.102] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:25:39.103] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:19
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:25:39.105] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:24
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:25:39.106] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:25:39.107] ERROR (asciidoctor): target of include not found: pages/README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc:2
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: antoraexp <worktree> | start path: docs)
+[23:26:25.144] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:26:25.146] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:26:25.148] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:26:25.151] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:26:25.153] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:26:25.153] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:26:25.155] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:19
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:26:25.156] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:24
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:26:25.157] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:26:25.159] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: antoraexp <worktree> | start path: docs)
+[23:27:10.419] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:27:10.421] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:27:10.423] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:27:10.427] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:27:10.428] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:27:10.428] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:27:10.430] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:19
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:27:10.431] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:24
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:27:10.432] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:27:10.435] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: antoraexp <worktree> | start path: docs)
+[23:28:08.209] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:28:08.212] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:28:08.213] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:28:08.217] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:28:08.218] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:28:08.218] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:28:08.220] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:19
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:28:08.221] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:24
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:28:08.222] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:28:08.224] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: antoraexp <worktree> | start path: docs)
+[23:30:42.642] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:30:42.644] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:30:42.646] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:30:42.650] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:30:42.651] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:30:42.652] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:30:42.653] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:19
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:30:42.655] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:24
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:30:42.656] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:30:42.658] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: antoraexp <worktree> | start path: docs)
+[23:30:50.199] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:30:50.201] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:30:50.203] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:30:50.206] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:30:50.207] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:30:50.208] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:30:50.209] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:19
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:30:50.211] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:24
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:30:50.211] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:30:50.213] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: antoraexp <worktree> | start path: docs)
+[23:31:45.610] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:31:45.612] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:31:45.614] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:31:45.618] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:31:45.619] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:31:45.620] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:31:45.622] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:19
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:31:45.623] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:24
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:31:45.624] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:31:45.626] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: antoraexp <worktree> | start path: docs)
+[23:32:16.053] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:32:16.055] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:32:16.057] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:32:16.062] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:32:16.063] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:32:16.064] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:32:16.065] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:19
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:32:16.067] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:24
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:32:53.956] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:32:53.959] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:32:53.960] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:32:53.965] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:32:53.966] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:32:53.967] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:32:53.969] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:19
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:32:53.970] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:24
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:33:18.626] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:33:18.628] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:33:18.630] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:33:18.636] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:33:18.637] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:33:18.637] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:33:18.640] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:19
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:33:18.640] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:24
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:33:18.641] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:33:18.644] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: antoraexp <worktree> | start path: docs)
+[23:42:49.028] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:42:49.031] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:42:49.033] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:42:49.038] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:42:49.039] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:42:49.039] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:42:49.042] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:19
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:42:49.042] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:24
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:42:49.045] ERROR (asciidoctor): target of xref not found: ./README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:42:49.047] ERROR (asciidoctor): target of xref not found: ./README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: antoraexp <worktree> | start path: docs)
+[23:43:09.416] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:43:09.418] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:43:09.420] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:43:09.425] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:43:09.426] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:43:09.426] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:43:09.428] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:19
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:43:09.429] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:24
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:52:33.426] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:52:33.428] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:52:33.430] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:52:33.435] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:52:33.436] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:52:33.436] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:52:33.438] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:19
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:52:33.439] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:24
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:53:22.612] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:53:22.614] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:53:22.616] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:53:22.622] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:53:22.623] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:53:22.623] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:53:22.626] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:19
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:53:22.626] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:24
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:53:22.627] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:53:22.629] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: antoraexp <worktree> | start path: docs)
+[23:55:38.508] INFO (@antora/collector-extension): run.command: exit 42 (url: /Users/manderse/code/jbangdev/jbang-gradle-plugin | branch: antoraexp <worktree> | start path: docs)
+[23:55:38.517] FATAL (antora): (@antora/collector-extension): Command not found: exit (url: /Users/manderse/code/jbangdev/jbang-gradle-plugin | branch: antoraexp <worktree> | start path: docs)
+    Cause: Error
+        at ChildProcess.<anonymous> (/Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/run-command-helper/lib/index.js:86:61)
+        at ChildProcess.emit (node:events:518:28)
+        at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+        at onErrorNT (node:internal/child_process:483:16)
+        at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[23:55:54.148] INFO (@antora/collector-extension): run.command: cp ../README.adoc modules/ROOT/pages/README.adoc (url: /Users/manderse/code/jbangdev/jbang-gradle-plugin | branch: antoraexp <worktree> | start path: docs)
+[23:55:54.260] FATAL (antora): (@antora/collector-extension): Command failed with exit status 1: cp ../README.adoc modules/ROOT/pages/README.adoc (url: /Users/manderse/code/jbangdev/jbang-gradle-plugin | branch: antoraexp <worktree> | start path: docs)
+(refer to terminal output for more detail)
+    Cause: Error
+        at ChildProcess.<anonymous> (/Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/run-command-helper/lib/index.js:74:21)
+        at ChildProcess.emit (node:events:518:28)
+        at maybeClose (node:internal/child_process:1104:16)
+        at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+[23:57:49.374] INFO (@antora/collector-extension): run.command: cp README.adoc index.adoc (url: /Users/manderse/code/jbangdev/jbang-gradle-plugin | branch: antoraexp <worktree> | start path: docs)
+[23:57:49.511] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:57:49.512] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:57:49.514] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:57:49.519] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:57:49.521] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:57:49.521] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:57:49.524] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:19
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:57:49.524] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:24
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:57:49.526] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:57:49.527] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: antoraexp <worktree> | start path: docs)
+[23:58:27.898] INFO (@antora/collector-extension): run.command: cp README.adoc index.adoc (url: /Users/manderse/code/jbangdev/jbang-gradle-plugin | branch: antoraexp <worktree> | start path: docs)
+[23:58:28.035] ERROR (asciidoctor): target of xref not found: jbang:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:58:28.036] ERROR (asciidoctor): target of xref not found: jbang:cli:jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:58:28.038] ERROR (asciidoctor): target of xref not found: jbang-idea:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/pages/index.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:58:28.042] ERROR (asciidoctor): target of include not found: jbang:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:4
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:58:28.044] ERROR (asciidoctor): target of include not found: jbang:cli:partial$nav-jbang.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:9
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:58:28.044] ERROR (asciidoctor): target of include not found: jbang-maven-plugin:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:12
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:58:28.046] ERROR (asciidoctor): target of include not found: jbang-vscode:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:19
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:58:28.047] ERROR (asciidoctor): target of include not found: jbang-idea:ROOT:partial$nav.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/partials/nav.adoc:24
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+    stack:
+        file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc:1
+[23:58:28.049] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:58:28.050] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: antoraexp <worktree> | start path: docs-site)
+[23:58:28.051] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: antoraexp <worktree> | start path: docs)
+[23:58:28.051] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: antoraexp <worktree> | start path: docs)
+[23:59:41.242] INFO (@antora/collector-extension): run.command: mkdir -p build/content; cp README.adoc build/content/index.adoc (url: /Users/manderse/code/jbangdev/jbang-gradle-plugin | branch: antoraexp <worktree> | start path: docs)
+[23:59:41.350] FATAL (antora): (@antora/collector-extension): Command failed with exit status 1: mkdir -p build/content; cp README.adoc build/content/index.adoc (url: /Users/manderse/code/jbangdev/jbang-gradle-plugin | branch: antoraexp <worktree> | start path: docs)
+(refer to terminal output for more detail)
+    Cause: Error
+        at ChildProcess.<anonymous> (/Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/run-command-helper/lib/index.js:74:21)
+        at ChildProcess.emit (node:events:518:28)
+        at maybeClose (node:internal/child_process:1104:16)
+        at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+[00:00:47.611] INFO (@antora/collector-extension): run.command: mkdir -p build/content; cp README.adoc build/content/index.adoc (url: /Users/manderse/code/jbangdev/jbang-gradle-plugin | branch: antoraexp <worktree> | start path: docs)
+[00:00:47.720] FATAL (antora): (@antora/collector-extension): Command failed with exit status 1: mkdir -p build/content; cp README.adoc build/content/index.adoc (url: /Users/manderse/code/jbangdev/jbang-gradle-plugin | branch: antoraexp <worktree> | start path: docs)
+(refer to terminal output for more detail)
+    Cause: Error
+        at ChildProcess.<anonymous> (/Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/run-command-helper/lib/index.js:74:21)
+        at ChildProcess.emit (node:events:518:28)
+        at maybeClose (node:internal/child_process:1104:16)
+        at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+[00:02:18.696] INFO (@antora/collector-extension): run.command: mkdir -p build/content; cp README.adoc build/content/index.adoc (url: /Users/manderse/code/jbangdev/jbang-gradle-plugin | branch: antoraexp <worktree> | start path: docs)
+[00:02:18.815] FATAL (antora): (@antora/collector-extension): Command failed with exit status 1: mkdir -p build/content; cp README.adoc build/content/index.adoc (url: /Users/manderse/code/jbangdev/jbang-gradle-plugin | branch: antoraexp <worktree> | start path: docs)
+(refer to terminal output for more detail)
+    Cause: Error
+        at ChildProcess.<anonymous> (/Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/run-command-helper/lib/index.js:74:21)
+        at ChildProcess.emit (node:events:518:28)
+        at maybeClose (node:internal/child_process:1104:16)
+        at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+[00:03:20.749] INFO (@antora/collector-extension): run.command: mkdir -p build/content; cp README.adoc build/content/index.adoc (url: /Users/manderse/code/jbangdev/jbang-gradle-plugin | branch: antoraexp <worktree> | start path: docs)
+[00:03:20.864] FATAL (antora): (@antora/collector-extension): Command failed with exit status 1: mkdir -p build/content; cp README.adoc build/content/index.adoc (url: /Users/manderse/code/jbangdev/jbang-gradle-plugin | branch: antoraexp <worktree> | start path: docs)
+(refer to terminal output for more detail)
+    Cause: Error
+        at ChildProcess.<anonymous> (/Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/run-command-helper/lib/index.js:74:21)
+        at ChildProcess.emit (node:events:518:28)
+        at maybeClose (node:internal/child_process:1104:16)
+        at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+[00:03:56.470] INFO (@antora/collector-extension): run.command: mkdir -p build/content; cp README.adoc build/content/index.adoc (url: /Users/manderse/code/jbangdev/jbang-gradle-plugin | branch: antoraexp <worktree> | start path: docs)
+[00:03:56.571] FATAL (antora): (@antora/collector-extension): Command failed with exit status 1: mkdir -p build/content; cp README.adoc build/content/index.adoc (url: /Users/manderse/code/jbangdev/jbang-gradle-plugin | branch: antoraexp <worktree> | start path: docs)
+(refer to terminal output for more detail)
+    Cause: Error
+        at ChildProcess.<anonymous> (/Users/manderse/code/jbangdev/jbang.dev/docs-site/node_modules/@antora/run-command-helper/lib/index.js:74:21)
+        at ChildProcess.emit (node:events:518:28)
+        at maybeClose (node:internal/child_process:1104:16)
+        at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+[00:15:16.274] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: HEAD <worktree> | start path: docs-site)
+[00:15:16.278] ERROR (asciidoctor): target of xref not found: README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: HEAD <worktree> | start path: docs)
+[00:17:58.602] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: HEAD <worktree> | start path: docs-site)
+[00:17:58.605] ERROR (asciidoctor): target of xref not found: README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: HEAD <worktree> | start path: docs-site)
+[00:17:58.606] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: HEAD <worktree> | start path: docs)
+[00:17:58.607] ERROR (asciidoctor): target of xref not found: README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: HEAD <worktree> | start path: docs)
+[00:18:24.003] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: HEAD <worktree> | start path: docs-site)
+[00:18:24.006] ERROR (asciidoctor): target of xref not found: README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: HEAD <worktree> | start path: docs-site)
+[00:18:24.007] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: HEAD <worktree> | start path: docs)
+[00:18:24.008] ERROR (asciidoctor): target of xref not found: README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: HEAD <worktree> | start path: docs)
+[00:27:23.672] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: HEAD <worktree> | start path: docs-site)
+[00:27:23.676] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: HEAD <worktree> | start path: docs)
+[00:29:21.967] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: HEAD <worktree> | start path: docs-site)
+[00:29:21.970] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:README.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: HEAD <worktree> | start path: docs)
+[00:38:24.369] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang.dev/docs-site/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang.dev (branch: HEAD <worktree> | start path: docs-site)
+[00:38:24.373] ERROR (asciidoctor): target of xref not found: jbang-gradle-plugin:ROOT:index.adoc
+    file: /Users/manderse/code/jbangdev/jbang-gradle-plugin/docs/modules/ROOT/nav.adoc
+    source: /Users/manderse/code/jbangdev/jbang-gradle-plugin (branch: HEAD <worktree> | start path: docs)
