@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import io.restassured.RestAssured;
 
 import static org.hamcrest.Matchers.containsString;
+import static org.hamcrest.Matchers.not;
 
 @QuarkusTest
 @RoqAndRoll
@@ -62,5 +63,15 @@ public class JBangSiteTest {
                 .statusCode(404);
 
 
+    }
+
+    @Test
+    public void testFeedXml() {
+        RestAssured.when().get("/feed.xml")
+                .then()
+                .log().ifValidationFails()
+                .statusCode(200)
+                .body(containsString("<rss"))
+                .body(not(containsString("src/main/resources/templates/fm/")));
     }
 } 
