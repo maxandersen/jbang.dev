@@ -1,0 +1,20 @@
+## Oat Migration Notes
+
+### What was done
+- Removed Vue 2 (EOL), Vuetify 2, Axios, ClipboardJS, MDI fonts from global head
+- Rewrote AppStore page with Oat 0.6.1 + vanilla JS
+- Rewrote IDE page tabs with Oat <ot-tabs> web component
+- Fixed pre-existing test failures (.vscode/** added to ignored files)
+
+### Things to verify
+- Test the AppStore search, pagination, copy-to-clipboard, and collapsible repo groups
+- Test the IDE tab switching across all 11 IDE entries
+- Verify mobile responsiveness on both pages
+- Check that other pages (homepage, blog posts) render correctly and are faster without Vue/Vuetify overhead
+
+### Follow-up ideas
+- The AppStore JSON (~545 KB) could be normalized (repos + aliases referencing repo index) to cut size ~50%
+- The appstore.java backend has escapeHtml(true) but the old frontend used v-html — descriptions with links may have been double-escaped; verify rendering
+- Templates data (84 items) is in the JSON but not shown anywhere — consider adding a Templates page
+- Oat is loaded from unpkg CDN — consider self-hosting or using jsdelivr for better caching
+- highlight.js in global head could also be modernized (v10.7.2 is old)
