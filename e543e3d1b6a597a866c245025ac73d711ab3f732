@@ -1,0 +1,22 @@
+## Homepage Redesign Notes
+
+### What was done
+- New homepage layout (templates/layouts/home.html) replacing the splash layout
+- Updated content/index.md to use layout: home with new tagline
+- Updated metadata.yaml: subtitle 'Java. Unchained.', rewritten description
+- Includes all Oat migration changes (see oat-migration branch for clean version)
+
+### Status: WIP
+- The homepage layout is a significant departure from the current live site
+- Needs design review and iteration before merging
+- Consider merging oat-migration branch first, then rebasing this on top
+
+### Things to verify
+- Homepage layout and responsiveness
+- Testimonials, feature rows, blog post section — currently removed, may need to be re-added
+- slot-machine.html partial was modified — check if still used
+
+### Follow-up ideas
+- The new homepage could benefit from a hero section with the slot-machine or asciinema demo
+- Re-integrate testimonials in the new layout
+- Add feature highlights (embedded deps, install anywhere, no Java needed)
